@@ -46,7 +46,7 @@ def clean_text(text):
     return text
     
 def count_words(input_file):
-    """Count unique words in a string.
+    """Count words in a text file.
 
     Words are made lowercase and punctuation is removed 
     before counting.
