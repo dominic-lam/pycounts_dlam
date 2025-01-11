@@ -5,9 +5,13 @@ description = "Calculate word counts in a text file!"
 authors = ["Dominic Lam"]
 license = "MIT"
 readme = "README.md"
+packages = [
+    { include = "pycounts_dlam", from = "src" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+matplotlib = "^3.4.3"
 
 
 [build-system]
